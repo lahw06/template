@@ -1,0 +1,148 @@
+/* General Styles */
+
+.faq-main {
+    padding: 40px 20px;
+    margin-top:0px;
+    
+    padding-top: 0px;
+}
+
+.faq-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #F4F4F4;
+    padding: 20px 30px;
+}
+
+.faq-header h2 {
+    font-size: 2.2em;
+    text-decoration: underline;
+    color: #002B5B;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.faq-item {
+    border-bottom: 1px solid #333;
+    padding: 25px 10px 5px 10px;
+    background-color: #F4F4F4;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item:hover {
+    background-color: #F4F4F4;
+}
+
+.faq-item h2 {
+    font-size: 1.2em;
+    color: #002B5B;
+    cursor: pointer;
+    position: relative;
+    padding-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.faq-item h2 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2em;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+    padding-left: 10px;
+    margin-top: 10px;
+    color: #004080;
+}
+
+.faq-not-found {
+    text-align: center;
+    color: #002B5B;
+    margin: 50px 0 15px 0;
+}
+
+#button-container {
+    background-color: #002B5B;
+    max-width: 180px;
+    padding: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 0.5s ease, transform 0.5s ease;
+    margin: 0 auto;
+}
+
+#button-container:hover {
+    background-color: #004080;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mission-link {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faq-container {
+        padding: 10px 15px;
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+.faq-main{
+    margin-top: 50px;
+    padding-top: 0px;
+}
+    .faq-header h2 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .faq-item {
+        padding: 20px 5px 5px 5px;
+    }
+
+    .faq-item h2 {
+        font-size: 1.2em;
+    }
+
+    .faq-answer p {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    #button-container {
+        max-width: 100%;
+    }
+    .header {
+    margin-bottom: 10px !important;
+    }
+    .faq-not-found{
+    display:none;
+}
+
+.no-phone{
+    display:none !important;
+}
+
+
+}

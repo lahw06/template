@@ -1,0 +1,162 @@
+
+
+.testimonials-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.testimonials-header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.testimonials-header h1 {
+    color: #002B5B;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.testimonials-header p {
+    color: #555;
+    font-size: 1.4em;
+}
+
+.reviews-section {
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.reviews-section h2 {
+    color: #002B5B;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.review {
+    background-color: #ffffff;
+    border: 2px solid #002B5B;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.review:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 43, 91, 0.3);
+}
+
+.review p:last-child {
+    font-weight: bold;
+    color: #004080;
+    margin-top: 10px;
+}
+
+.google-reviews {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.google-reviews p {
+    font-size: 1.4em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.google-link {
+    display: inline-block;
+    background-color: #002B5B;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.google-link:hover {
+    background-color: #004080;
+    transform: scale(1.05);
+}
+
+.before-after-section {
+    margin-bottom: 120px;
+}
+
+.before-after-section h2 {
+    color: #002B5B;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.before-after-section p {
+    font-size: 1.4em;
+    color: #555;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.before-after-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 50px;
+    border: 4px solid #002B5B;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+figure img {
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    align-self: flex-start;
+    font-size: 2em;
+    font-weight: bold;
+    color: #002B5B;
+    margin-bottom: 10px;
+    margin-left:30px ;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .reviews-container {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .review {
+        width: 90%;
+    }
+    
+    figure{
+        width:100%;
+    }
+ 
+}
+
